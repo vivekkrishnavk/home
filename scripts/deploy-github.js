@@ -5,7 +5,7 @@ ghpages.publish(
   'public',
   {
     branch: 'master',
-    repo: '',
+    repo: 'https://github.com/vivekkrishnavk/mywebsite-react.git',
   },
   () => {
     console.log('Deploy Complete!')
