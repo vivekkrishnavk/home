@@ -1,0 +1,161 @@
+.contentSection {
+  padding-top: 120px;
+  background-color: rgba(0, 0, 0, 0.173);
+  display: flex;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  justify-content: center;
+}
+
+.mainContent {
+  max-width: 1280px;
+}
+
+.headerWrapper {
+  line-height: 1.6em;
+  max-width: 580px;
+}
+
+.contentTextBlock {
+  line-height: 1.6em;
+  color: rgba(0, 0, 0, 0.59);
+  font-family: Rubik, Arial, sans-serif;
+}
+
+.intro {
+  line-height: 1.6em;
+  display: block;
+  letter-spacing: 0.32em;
+  text-transform: uppercase;
+  color: rgb(255, 255, 255);
+}
+
+.introCrux {
+  line-height: 1.4em;
+  display: block;
+  font-family: "Roboto Mono", monospace;
+  word-spacing: -0.08em;
+  font-weight: 500;
+  letter-spacing: -0.04em;
+  color: rgb(51, 51, 51);
+}
+
+.introExpand {
+  line-height: 1.6em;
+  font-family: Rubik, Arial, sans-serif;
+  color: rgba(0, 0, 0, 0.59);
+}
+
+.actionBar {
+  align-content: center;
+  -webkit-box-align: center;
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  -webkit-box-pack: start;
+  justify-content: flex-start;
+  position: relative;
+  width: 100%;
+}
+
+.seeMoreLink {
+  cursor: pointer;
+  display: inline-block;
+  white-space: nowrap;
+  font-weight: 500;
+  letter-spacing: 0.08em;
+  line-height: 1.4em;
+  text-align: center;
+  text-transform: uppercase;
+  color: rgba(0, 0, 0, 0.694);
+  font-family: Rubik, Arial, sans-serif;
+  text-decoration: none;
+  border-style: solid;
+  border-width: 0px 0px 2px;
+  transition: border-color 0.3s ease 0s, color 0.3s ease 0s;
+  border-color: rgba(0, 0, 0, 0.694);
+}
+
+.getInTouchLink {
+  cursor: pointer;
+  display: inline-block;
+  white-space: nowrap;
+  font-weight: 500;
+  letter-spacing: 0.08em;
+  line-height: 1.4em;
+  text-align: center;
+  text-transform: uppercase;
+  color: rgba(0, 0, 0, 0.694);
+  font-family: Rubik, Arial, sans-serif;
+  text-decoration: none;
+  border-style: solid;
+  border-width: 0px 0px 2px;
+  transition: border-color 0.3s ease 0s, color 0.3s ease 0s;
+  border-color: transparent;
+}
+
+@media only screen and (min-width: 768px) {
+  .contentSection {
+    margin-left: 280px;
+    min-height: 100vh;
+    padding-bottom: 120px;
+  }
+  .mainContent {
+    padding-right: calc(48px + ((16 * (100vw - 320px)) / 1120));
+    padding-left: calc(48px + ((16 * (100vw - 320px)) / 1120));
+    margin-bottom: calc(48px + ((16 * (100vw - 320px)) / 1120));
+    margin-top: calc(48px + ((16 * (100vw - 320px)) / 1120));
+  }
+}
+
+@media only screen and (min-width: 320px) {
+  .contentSection {
+    padding-right: calc(24px + ((8 * (100vw - 320px)) / 1120));
+    padding-bottom: calc(48px + ((16 * (100vw - 320px)) / 1120));
+    padding-left: calc(24px + ((8 * (100vw - 320px)) / 1120));
+  }
+  .mainContent {
+    padding-right: calc(48px + ((16 * (100vw - 320px)) / 1120));
+    padding-left: calc(48px + ((16 * (100vw - 320px)) / 1120));
+    margin-bottom: calc(48px + ((16 * (100vw - 320px)) / 1120));
+    margin-top: calc(48px + ((16 * (100vw - 320px)) / 1120));
+  }
+  .headerWrapper {
+    font-size: calc(13px + ((2 * (100vw - 320px)) / 1120));
+  }
+  .contentTextBlock {
+    font-size: calc(13px + ((2 * (100vw - 320px)) / 1120));
+  }
+  .contentWrapperH1 {
+    margin-bottom: calc(24px + ((8 * (100vw - 320px)) / 1120));
+  }
+  .intro {
+    font-size: calc(14px + ((2 * (100vw - 320px)) / 1120));
+    margin-bottom: calc(24px + ((8 * (100vw - 320px)) / 1120));
+  }
+  .introCrux {
+    font-size: calc(28px + ((14 * (100vw - 320px)) / 1120));
+  }
+  .introExpand {
+    margin-bottom: calc(24px + ((8 * (100vw - 320px)) / 1120));
+    font-size: calc(18px + ((8 * (100vw - 320px)) / 1120));
+  }
+  .seeMoreLink {
+    margin-left: calc(0px + ((0 * (100vw - 320px)) / 1120));
+    margin-right: calc(12px + ((4 * (100vw - 320px)) / 1120));
+    padding-bottom: calc(3px + ((1 * (100vw - 320px)) / 1120));
+    padding-top: calc(3px + ((1 * (100vw - 320px)) / 1120));
+  }
+  .getInTouchLink {
+    margin-right: calc(0px + ((0 * (100vw - 320px)) / 1120));
+    margin-left: calc(12px + ((4 * (100vw - 320px)) / 1120));
+    padding-bottom: calc(3px + ((1 * (100vw - 320px)) / 1120));
+    padding-top: calc(3px + ((1 * (100vw - 320px)) / 1120));
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .contentSection {
+    margin-left: 0px;
+  }
+}

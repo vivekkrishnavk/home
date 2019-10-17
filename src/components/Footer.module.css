@@ -1,0 +1,87 @@
+@media only screen and (min-width: 768px) {
+  .footerContent {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 320px) {
+  .footerContent {
+    font-size: calc(13px + ((2 * (100vw - 320px)) / 1120));
+    padding-bottom: calc(48px + ((16 * (100vw - 320px)) / 1120));
+    padding-top: calc(48px + ((16 * (100vw - 320px)) / 1120));
+    padding-right: calc(24px + ((8 * (100vw - 320px)) / 1120));
+    padding-left: calc(24px + ((8 * (100vw - 320px)) / 1120));
+    text-align: center;
+  }
+  .textBlock {
+    font-size: calc(13px + ((2 * (100vw - 320px)) / 1120));
+    line-height: 1.6em;
+    color: rgba(0, 0, 0, 0.486);
+    font-family: Rubik;
+  }
+  .header {
+    margin-bottom: calc(24px + ((8 * (100vw - 320px)) / 1120));
+    font-size: calc(18px + ((8 * (100vw - 320px)) / 1120));
+    line-height: 1.6em;
+    display: block;
+    font-family: "Roboto Mono", monospace;
+    font-weight: 500;
+    word-spacing: -0.04em;
+    color: rgb(51, 51, 51);
+  }
+  .textString {
+    font-size: calc(15px + ((3 * (100vw - 320px)) / 1120));
+    line-height: 1.6em;
+    font-family: Rubik, Arial, sans-serif;
+    color: rgba(0, 0, 0, 0.486);
+  }
+  .lineSeperator {
+    margin-bottom: calc(12px + ((4 * (100vw - 320px)) / 1120));
+    margin-top: calc(12px + ((4 * (100vw - 320px)) / 1120));
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    clear: both;
+    position: relative;
+    width: 100%;
+    border-color: transparent;
+    background: transparent;
+    border-width: 0px 0px 2px;
+  }
+  .emailLink {
+    padding-bottom: calc(3px + ((1 * (100vw - 320px)) / 1120));
+    padding-top: calc(3px + ((1 * (100vw - 320px)) / 1120));
+    cursor: pointer;
+    display: inline-block;
+    white-space: nowrap;
+    font-weight: 500;
+    letter-spacing: 0.08em;
+    line-height: 1.4em;
+    text-transform: uppercase;
+    color: rgba(0, 0, 0, 0.486);
+    font-family: Rubik, Arial, sans-serif;
+    text-decoration: none;
+    border-style: solid;
+    border-width: 0px 0px 2px;
+    transition: border-color 0.3s ease 0s, color 0.3s ease 0s;
+    border-color: rgba(0, 0, 0, 0.486);
+  }
+  a.emailLink span {
+    color: rgba(0, 0, 0, 0.486);
+  }
+  .emailSpan {
+    direction: rtl;
+    unicode-bidi: bidi-override;
+  }
+  .socialLinks {
+    display: flex;
+    flex-direction: row;
+    -webkit-box-pack: end;
+    justify-content: center;
+    color: rgba(0, 0, 0, 0.486);
+  }
+  .socialLink {
+    margin-left: calc(10px + ((0 * (100vw - 320px)) / 1120));
+    margin-right: calc(10px + ((2 * (100vw - 320px)) / 1120));
+  }
+}
